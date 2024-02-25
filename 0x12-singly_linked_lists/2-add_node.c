@@ -14,7 +14,7 @@ if (newNode == NULL)
 return (NULL);
 newNode->str = strdup(str);
 newNode->len = strlen(str);
-newNode->next= NULL;
+newNode->next = NULL;
 return (newNode);
 }
 /**
