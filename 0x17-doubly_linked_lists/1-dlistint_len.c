@@ -4,8 +4,8 @@
 #include "lists.h"
 /**
  * dlistint_len - counts the number of elements
- * @: ;ist head
- * ReturnL integer;
+ * @h: list head
+ * Return: integer;
  */
 size_t dlistint_len(const dlistint_t *h)
 {
